@@ -242,7 +242,7 @@ A quick Google search and we can find out more about this, and see that it can b
 
 ## Exploitation
 
-I found an [article] [https://www.hackingarticles.in/windows-privilege-escalation-sebackupprivilege/]which explained the exploit and how it can be leveraged to attain a privesc.
+I found an [article](https://www.hackingarticles.in/windows-privilege-escalation-sebackupprivilege/) which explained the exploit and how it can be leveraged to attain a privesc.
 
 Since our user can read all files in the system, we can use this to pull out sensitive information back to our attacking machine. 
 
@@ -263,7 +263,7 @@ download sam
 download system
 ```
 
-Once downloaded, we can extract the secrets from the SAM and SYSTEM files using `pypykatz`, which is essentially `mimikatz` wrapped in Python. This can be found here: [pypykatz][https://github.com/skelsec/pypykatz]. 
+Once downloaded, we can extract the secrets from the SAM and SYSTEM files using `pypykatz`, which is essentially `mimikatz` wrapped in Python. This can be found here: [pypykatz](https://github.com/skelsec/pypykatz). 
 
 ```shell
 pypykatz registry --sam sam system
